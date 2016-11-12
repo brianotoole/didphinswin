@@ -1,0 +1,17 @@
+// Mixins
+
+// Strip units from values
+@function strip-unit($num) {
+  @return $num / ($num * 0 + 1);
+}
+
+// Calculate ems from pixels
+// Usage: calc-em(16px);
+@function calc-em($px, $base: 16) {
+	$px: strip-unit($px);
+	$base: strip-unit($base);
+	@if $px == 1 {
+		@return 1px;
+	}
+	@return ($px / $base) * 1em;
+}

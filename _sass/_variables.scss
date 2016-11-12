@@ -1,0 +1,44 @@
+// Variables
+// colors - brand (Bucs)
+$color-body: #0c0c0c;
+$color-primary: #D60A0B; //bucs red
+$color-secondary: #89765F; //bucs gold
+$color-primary-dark: darken($color-primary, 7%);
+$color-secondary-dark: darken($color-secondary, 7%);
+
+// colors - components
+$color-border: #555;
+$color-link: $color-primary-dark;
+$color-link-dark: darken($color-primary-dark, 7%);
+
+// colors - others
+$color-white: #fff;
+$color-black: #000;
+$color-gray: #555;
+
+// colors - teams
+$color-primary-browns: #FE3C00; //browns orange
+$color-secondary-browns: #26201E; //browns brown (no pun intended)
+$color-primary-bucs: #D60A0B; //bucs red
+$color-secondary-bucs: #89765F; //bucs gold
+$color-primary-dolphins: #008D97; //dolphins aqua
+$color-secondary-dolphins: #F5811F; //dolphins orange
+$color-primary-jags: #006272; //jags teal
+$color-secondary-jags: #9A7611; //jags gold
+
+// measurements - relative sizings of fonts in %
+$font-size-default: 100%; //1em = 16px
+$font-size-md: 112.5%;
+$font-size-lg: 125%;
+
+// breakpoints - relative sizings of breakpoints in ems
+$bp-xs: calc-em(320px); //320/16(1em = 16px) = 20em
+$bp-sm: calc-em(480px);
+$bp-md: calc-em(800px);
+$bp-lg: calc-em(960px);
+$bp-xl: calc-em(1280px); 
+
+// fonts
+@import url('https://fonts.googleapis.com/css?family=Oswald:300,400,700|Open+Sans');
+$font-primary: "Open Sans", serif; //body
+$font-secondary: "Oswald", sans-serif; //headings

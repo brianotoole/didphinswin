@@ -1,0 +1,52 @@
+// Helpers
+
+// color classes
+.text-primary {
+  color: $color-primary;
+}
+.text-secondary {
+  color: $color-secondary;
+}
+.text-white {
+  color: $color-white;
+}
+.bg-primary {
+  background: $color-primary;
+}
+.bg-accent {
+  background: $color-secondary;
+}
+.bg-white {
+  background: $color-white;
+}
+.bg-gray {
+  background: $color-gray;
+}
+
+// links
+.link-underline {text-decoration: underline;}
+
+// pads
+.pad-left-0 {
+  @media (min-width: $bp-md) { padding-left: 0;}
+}
+.pad-right-0 {
+  @media (min-width: $bp-md) { padding-right: 0; }
+}
+.pad-0 {
+  @media (min-width: $bp-md) { padding: 0; }
+}
+
+// alignments
+.float-left {float: left;}
+.float-right {float: right;}
+
+// visibility
+.visible-sm {
+  display: block;
+  @media (min-width: $bp-md) { display: none; }
+}
+.hidden-sm {
+  display: none;
+  @media (min-width: $bp-md) { display: block; }
+}

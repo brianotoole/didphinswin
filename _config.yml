@@ -1,0 +1,36 @@
+title: Did the Miami Dolphins Win?
+email: hello@didphinswin.com
+author: Brian OToole
+description: #
+baseurl: "" # the subpath of your site, e.g. /blog
+current_team: Dolphins
+url: http://didphinswin.com # the base hostname & protocol for your site, e.g. http://example.com
+url_jags: http://didjagswin.com
+url_browns: http://didbrownswin.com
+url_bucs: http://didbucswin.com
+url_dolphins: http://didphinswin.com
+twitter_username: brianotoole
+github_username:  brianotoole
+
+# Build settings
+markdown: kramdown
+#theme: minima
+
+sass:
+  compressed: true
+  
+gems:
+  #- jekyll-feed
+ 
+# Files in this repo that we don't want to go to the web 
+exclude: [
+  'scss',
+  '*.rb',
+  '*.yml', 
+  'vendor', 
+  'Gemfile', 
+  'Gemfile.lock',
+  '*.sh',
+  'README.md',
+  'LICENSE.md',
+]
